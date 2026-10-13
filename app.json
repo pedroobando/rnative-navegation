@@ -24,6 +24,16 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/WorkSans-Black.ttf",
+            "./assets/fonts/WorkSans-Light.ttf",
+            "./assets/fonts/WorkSans-Medium.ttf"
+          ]
+        }
+      ],
       "expo-router",
       [
         "expo-splash-screen",

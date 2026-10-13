@@ -1,9 +1,12 @@
-:root {
-  --font-display:
-    Spline Sans, Inter, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji,
-    Segoe UI Symbol, Noto Color Emoji;
-  --font-mono:
-    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-  --font-rounded: 'SF Pro Rounded', 'Hiragino Maru Gothic ProN', Meiryo, 'MS PGothic', sans-serif;
-  --font-serif: Georgia, 'Times New Roman', serif;
+@import 'tailwindcss';
+@import 'uniwind';
+
+@theme {
+  --font-work-black: 'WorkSans-Black';
+  --font-work-light: 'WorkSans-Light';
+  --font-work-medium: 'WorkSans-Medium';
+
+  --color-primary: '#49129C';
+  --color-secondary: '#B40086';
+  --color-tertiary: oklch(0.6 0.2 240);
 }
