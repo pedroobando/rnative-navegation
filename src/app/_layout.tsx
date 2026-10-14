@@ -1,4 +1,3 @@
-// import { registerRootComponent } from 'expo';
 import { useFonts } from 'expo-font';
 import { Slot, SplashScreen } from 'expo-router';
 import { useEffect } from 'react';
