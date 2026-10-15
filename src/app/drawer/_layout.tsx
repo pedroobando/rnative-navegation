@@ -1,10 +1,11 @@
+import { CustomDrawer } from '@/components';
 import { Ionicons } from '@expo/vector-icons';
 import { Drawer } from 'expo-router/drawer';
 
 const DrawerLayout = () => {
   return (
     <Drawer
-      // drawerContent={CustomDrawer}
+      drawerContent={CustomDrawer}
       screenOptions={{
         // headerShown: false,
         overlayColor: 'rgba(0,0,0,0.4)',
@@ -18,7 +19,7 @@ const DrawerLayout = () => {
         // },
       }}
     >
-      <Drawer.Screen
+      {/* <Drawer.Screen
         name="(tabs)" // This is the name of the page and must match the url from root
         options={{
           headerShown: false,
@@ -29,7 +30,7 @@ const DrawerLayout = () => {
             <Ionicons name="albums-outline" size={size} color={color} />
           ),
         }}
-      />
+      /> */}
 
       <Drawer.Screen
         name="user/index" // This is the name of the page and must match the url from root
